@@ -1,0 +1,36 @@
+.formInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.error{
+    color: #ff1a1a;
+}
+.expRow{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.textField{
+    font-family: cursive;
+    width: 50ex;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    height: 3em;
+    width: 12ex;
+    border-radius: 2rem;
+    color: #ffffff;
+    background-color: #003fb3;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: cursive;
+    margin-top: 2em;
+}
+.button:hover {
+    background-color: #1a6bff;
+}
