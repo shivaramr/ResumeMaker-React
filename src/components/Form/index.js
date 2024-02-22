@@ -3,13 +3,13 @@ import Step1 from "./subcomponents/step1/Step1";
 import Step2 from "./subcomponents/step2/Step2";
 import Step3 from "./subcomponents/step3/Step3";
 import Step4 from "./subcomponents/step4/Step4";
+import Step5 from "./subcomponents/step5/Step5";
 import clipImg from "./subcomponents/step1/clipboard.png";
 import bookImg from "./subcomponents/step2/book.png";
 import userImg from "./subcomponents/step3/User.png";
 import managerImg from "./subcomponents/step4/manager.png";
 import { resumeContext } from "../../helper/context";
 import style from "./style.module.css";
-import Step5 from "./subcomponents/step5/Step5";
 import homeImg from "./subcomponents/step5/house.png";
 
 function Form() {
