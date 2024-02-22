@@ -9,8 +9,8 @@ import bookImg from "./subcomponents/step2/book.png";
 import userImg from "./subcomponents/step3/User.png";
 import managerImg from "./subcomponents/step4/manager.png";
 import { resumeContext } from "../../helper/context";
-import style from "./style.module.css";
 import homeImg from "./subcomponents/step5/house.png";
+import style from "./style.module.css";
 
 function Form() {
   const { step } = useContext(resumeContext);
